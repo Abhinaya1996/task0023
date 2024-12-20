@@ -13,7 +13,7 @@ export default function Footer(){
                             <FontAwesomeIcon style={{ color: 'white' }} icon={faPhoneAlt} size="2x" />
                         </span>
                         <div className={footerstyles.listItemText}>
-                            <h4>Phone Number</h4>
+                            <span>Phone Number</span>
                             <p>+974 3118 1843</p>
                         </div>
                     </div>
@@ -24,7 +24,7 @@ export default function Footer(){
                             <FontAwesomeIcon style={{ color: 'white' }} icon={faMailBulk} size="2x" />
                         </span>
                         <div className={footerstyles.listItemText}>
-                            <h4>Email Address</h4>
+                            <span>Email Address</span>
                             <p>Elbrithcqhr@gmail.com</p>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ export default function Footer(){
                             <FontAwesomeIcon style={{ color: 'white' }} icon={faMapLocation} size="2x" />
                         </span>
                         <div className={footerstyles.listItemText}>
-                            <h4>Office Location</h4>
+                            <span>Office Location</span>
                             <p> Ambassador Street, Zone 61,</p>
                         </div>
                     </div>

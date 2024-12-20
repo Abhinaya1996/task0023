@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFlask, faLeaf, faCartShopping, faShieldAlt, faFlag, faRecycle, faCapsules, faWeightScale, faBurger } from '@fortawesome/free-solid-svg-icons';
 import Blog from '../components/Blog';
 import Ingredients from '../components/Ingredients';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 export default function Home(){
     return <>
@@ -16,7 +18,7 @@ export default function Home(){
                 <p className={homestyles.button}>Explore</p>
             </div>
             <div className={homestyles.column}>
-                <img src="/assets/f2-1.png.png" alt="Probiotics" style={{height: '330px', width: '300px'}}/>
+            <LazyLoadImage alt="Description" src="/assets/f2-1.png.png" effect="blur" height="auto"  width="100%" />
             </div>
             <div className={homestyles.column}>
                 <ul className={homestyles.listService}>

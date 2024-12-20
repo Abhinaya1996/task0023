@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <img src="/assets/elbrit-logo.jpg" alt="Logo" />
+        <img src="/assets/elbrit-logo.jpg" alt="Logo" style={{ maxWidth: '280px', height: 'auto' }} />
       </div>
     </header>
   );

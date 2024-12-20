@@ -22,9 +22,7 @@ export default function Ingredients(){
                     <p className={ingredientstyles.imageDesc}>
                     Vitamin C as ascorbic acid
                     </p>
-                    <a href="#" className={ingredientstyles.viewMore}>
-                    See More
-                    </a>
+                    <button className={ingredientstyles.viewMore}>See More</button>
                 </div>
                 </div>
             </div>
@@ -38,9 +36,7 @@ export default function Ingredients(){
                     <p className={ingredientstyles.imageDesc}>
                     Niacin for healthy gut and skin
                     </p>
-                    <a href="#" className={ingredientstyles.viewMore}>
-                    See More
-                    </a>
+                    <button className={ingredientstyles.viewMore}>See More</button>
                 </div>
                 </div>
             </div>
@@ -55,9 +51,7 @@ export default function Ingredients(){
                         <p className={ingredientstyles.imageDesc}>
                         Boost energy and support <br/>muscle function
                         </p>
-                        <a href="#" className={ingredientstyles.viewMore}>
-                        See More
-                        </a>
+                        <button className={ingredientstyles.viewMore}>See More</button>
                     </div>
                 </div>
             </div>
@@ -69,9 +63,7 @@ export default function Ingredients(){
                         <p className={ingredientstyles.imageDesc}>
                         For smooth, <br/> supple and soft skin!
                         </p>
-                        <a href="#" className={ingredientstyles.viewMore}>
-                        See More
-                        </a>
+                        <button className={ingredientstyles.viewMore}>See More</button>
                     </div>
                 </div>
             </div>
@@ -83,9 +75,7 @@ export default function Ingredients(){
                         <p className={ingredientstyles.imageDesc}>
                         Invigorate your gut <br/> microbiome
                         </p>
-                        <a href="#" className={ingredientstyles.viewMore}>
-                        See More
-                        </a>
+                        <button className={ingredientstyles.viewMore}>See More</button>
                     </div>
                 </div>
             </div>

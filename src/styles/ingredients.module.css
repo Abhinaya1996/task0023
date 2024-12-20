@@ -87,8 +87,13 @@
   font-size: 14px;
   color: #103f4e;
   text-decoration: underline;
+  text-align: left;
   font-weight: bold;
   margin-top: auto;
+  background: none; /* Remove default button background */
+  border: none; /* Remove default button border */
+  padding: 0; /* Remove default button padding */
+  cursor: pointer; /* Add pointer cursor for interactivity */
 }
 
 .mobhideCol{

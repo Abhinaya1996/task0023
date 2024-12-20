@@ -27,7 +27,7 @@ export default function Home(){
                             <FontAwesomeIcon style={{ color: 'white' }} icon={faCapsules} size="2x" />
                         </span>
                         <div className={homestyles.listItemText}>
-                            <h4>Vitamins</h4>
+                            <h2>Vitamins</h2>
                             <p>Increased Vitamins and</p>
                             <p>minerals in your diet</p>
                         </div>
@@ -38,7 +38,7 @@ export default function Home(){
                             <FontAwesomeIcon style={{ color: 'white' }} icon={faWeightScale} size="2x" />
                         </span>
                         <div className={homestyles.listItemText}>
-                            <h4>Weight Loss</h4>
+                            <h2>Weight Loss</h2>
                             <p>Weight Loss </p>
                             <p>Find scientifically proven solutions</p>
                         </div>
@@ -49,7 +49,7 @@ export default function Home(){
                             <FontAwesomeIcon style={{ color: 'white' }} icon={faBurger} size="2x" />
                         </span>
                         <div className={homestyles.listItemText}>
-                            <h4>Functional Foods</h4>
+                            <h2>Functional Foods</h2>
                             <p>Functional Foods</p>
                             <p>From protein powers to baby formula</p>
                         </div>
@@ -67,7 +67,7 @@ export default function Home(){
             <FontAwesomeIcon icon={faFlask} size="2x" />
         </div>
         <div className={homestyles.circleText}>
-            <h4>Clinically Studied</h4>
+            <h3>Clinically Studied</h3>
             <p>All products that we offer have<br/>
             undergone lab and safety tests</p>
         </div>
@@ -78,7 +78,7 @@ export default function Home(){
             <FontAwesomeIcon icon={faLeaf} size="2x" />
         </div>
         <div className={homestyles.circleText}>
-            <h4>Vegetarian Friendly</h4>
+            <h3>Vegetarian Friendly</h3>
             <p>We have a wide selection of vegetarian<br/>
             products to meet your needs</p>
         </div>
@@ -89,7 +89,7 @@ export default function Home(){
             <FontAwesomeIcon icon={faFlag} size="2x" />
         </div>
         <div className={homestyles.circleText}>
-            <h4>Made in India</h4>
+            <h3>Made in India</h3>
             <p>Shop local and explore health products<br/>
             made right here in India</p>
         </div>
@@ -102,7 +102,7 @@ export default function Home(){
             <FontAwesomeIcon icon={faCartShopping} size="2x" />
         </div>
         <div className={homestyles.circleText}>
-            <h4>Free shipping</h4>
+            <h3>Free shipping</h3>
             <p>We deliver to your door with no<br/>
             shipping costs on your orders</p>
         </div>
@@ -113,7 +113,7 @@ export default function Home(){
             <FontAwesomeIcon icon={faShieldAlt} size="2x" />
         </div>
         <div className={homestyles.circleText}>
-            <h4>No Risk</h4>
+            <h3>No Risk</h3>
             <p>We ensure that all products are safe<br/>
 and within their use-by date</p>
         </div>
@@ -124,7 +124,7 @@ and within their use-by date</p>
             <FontAwesomeIcon icon={faRecycle} size="2x" />
         </div>
         <div className={homestyles.circleText}>
-            <h4>GMO free</h4>
+            <h3>GMO free</h3>
             <p>Natural, no modified products and<br/>
 derivatives for those who need it</p>
         </div>

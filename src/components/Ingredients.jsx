@@ -15,7 +15,7 @@ export default function Ingredients(){
             <div className={ingredientstyles.column}>
                 <div
                 className={ingredientstyles.imageWrapper}
-                style={{ backgroundImage: "url(/assets/h2-b1.jpg.png)" }}
+                style={{ backgroundImage: "url(/assets/h2-b1.jpg.webp)" }}
                 >
                 <div className={ingredientstyles.overlay}>
                     <h4 className={ingredientstyles.imageTitle}>Vitamin C</h4>
@@ -29,7 +29,7 @@ export default function Ingredients(){
             <div className={ingredientstyles.column}>
                 <div
                 className={ingredientstyles.imageWrapper}
-                style={{ backgroundImage: "url(/assets/bn2-2.jpg.png)" }}
+                style={{ backgroundImage: "url(/assets/bn2-2.jpg.webp)" }}
                 >
                 <div className={ingredientstyles.overlay}>
                     <h4 className={ingredientstyles.imageTitle}>Vitamin B3</h4>
@@ -45,7 +45,7 @@ export default function Ingredients(){
         <div className={ingredientstyles.row} style={{paddingBottom:'100px'}}>
 
             <div className={ingredientstyles.column}>
-                <div className={ingredientstyles.imageWrapper} style={{ backgroundImage: "url(/assets/bn2-3.jpg.png)" }}>
+                <div className={ingredientstyles.imageWrapper} style={{ backgroundImage: "url(/assets/bn2-3.jpg.webp)" }}>
                     <div className={ingredientstyles.overlay}>
                         <h4 className={ingredientstyles.imageTitle}>Magnesium</h4>
                         <p className={ingredientstyles.imageDesc}>
@@ -57,7 +57,7 @@ export default function Ingredients(){
             </div>
 
             <div className={ingredientstyles.column}>
-                <div className={ingredientstyles.imageWrapper} style={{ backgroundImage: "url(/assets/bn2-4.jpg.png)" }}>
+                <div className={ingredientstyles.imageWrapper} style={{ backgroundImage: "url(/assets/bn2-4.jpg.webp)" }}>
                     <div className={ingredientstyles.overlay}>
                         <h4 className={ingredientstyles.imageTitle}>Hyaluronic Acid</h4>
                         <p className={ingredientstyles.imageDesc}>
@@ -69,7 +69,7 @@ export default function Ingredients(){
             </div>
 
             <div className={ingredientstyles.column}>
-                <div className={ingredientstyles.imageWrapper} style={{ backgroundImage: "url(/assets/bn2-5.jpg.png)" }}>
+                <div className={ingredientstyles.imageWrapper} style={{ backgroundImage: "url(/assets/bn2-5.jpg.webp)" }}>
                     <div className={ingredientstyles.overlay}>
                         <h4 className={ingredientstyles.imageTitle}>Lactobacillus</h4>
                         <p className={ingredientstyles.imageDesc}>

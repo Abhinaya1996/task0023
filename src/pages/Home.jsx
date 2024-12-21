@@ -18,7 +18,7 @@ export default function Home(){
                 <p className={homestyles.button}>Explore</p>
             </div>
             <div className={`${homestyles.column} ${homestyles.imageContainer}`}>
-            <LazyLoadImage alt="Probiotics image" src="/assets/f2-2.webp" effect="blur" height="auto"  width="100%" loading="lazy"/>
+            <LazyLoadImage alt="Probiotics image" src="/assets/f2-2.webp" effect="blur" height="400px"  width="auto" loading="lazy"/>
             </div>
             <div className={homestyles.column}>
                 <ul className={homestyles.listService}>

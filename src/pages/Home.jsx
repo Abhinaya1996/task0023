@@ -17,8 +17,8 @@ export default function Home(){
                 <p className={homestyles.plineMedium}>Get Your Vitamins <br/> & Minerals</p>
                 <p className={homestyles.button}>Explore</p>
             </div>
-            <div className={homestyles.column}>
-            <LazyLoadImage alt="Description" src="/assets/f2-1.png.webp" effect="blur" height="auto"  width="100%" />
+            <div className={`${homestyles.column} ${homestyles.imageContainer}`}>
+            <LazyLoadImage alt="Probiotics image" src="/assets/f2-2.webp" effect="blur" height="auto"  width="100%" loading="lazy"/>
             </div>
             <div className={homestyles.column}>
                 <ul className={homestyles.listService}>
@@ -62,82 +62,75 @@ export default function Home(){
     </div>
 
     <div className={homestyles.overlappingSection}>
-    <div className={homestyles.circleWrapper}>
-        <div className={homestyles.circle}>
-            <FontAwesomeIcon icon={faFlask} size="2x" />
+        <div className={homestyles.circleWrapper}>
+            <div className={homestyles.circle}>
+                <FontAwesomeIcon icon={faFlask} size="2x" />
+            </div>
+            <div className={homestyles.circleText}>
+                <h3>Clinically Studied</h3>
+                <p>All products that we offer have<br/>
+                undergone lab and safety tests</p>
+            </div>
         </div>
-        <div className={homestyles.circleText}>
-            <h3>Clinically Studied</h3>
-            <p>All products that we offer have<br/>
-            undergone lab and safety tests</p>
+
+        <div className={homestyles.circleWrapper}>
+            <div className={homestyles.circle}>
+                <FontAwesomeIcon icon={faLeaf} size="2x" />
+            </div>
+            <div className={homestyles.circleText}>
+                <h3>Vegetarian Friendly</h3>
+                <p>We have a wide selection of vegetarian<br/>
+                products to meet your needs</p>
+            </div>
+        </div>
+
+        <div className={homestyles.circleWrapper}>
+            <div className={homestyles.circle}>
+                <FontAwesomeIcon icon={faFlag} size="2x" />
+            </div>
+            <div className={homestyles.circleText}>
+                <h3>Made in India</h3>
+                <p>Shop local and explore health products<br/>
+                made right here in India</p>
+            </div>
         </div>
     </div>
 
-    <div className={homestyles.circleWrapper}>
-        <div className={homestyles.circle}>
-            <FontAwesomeIcon icon={faLeaf} size="2x" />
+    <div className={homestyles.overlappingSection2}>
+        <div className={homestyles.circleWrapper2}>
+            <div className={homestyles.circle}>
+                <FontAwesomeIcon icon={faCartShopping} size="2x" />
+            </div>
+            <div className={homestyles.circleText}>
+                <h3>Free shipping</h3>
+                <p>We deliver to your door with no<br/>
+                shipping costs on your orders</p>
+            </div>
         </div>
-        <div className={homestyles.circleText}>
-            <h3>Vegetarian Friendly</h3>
-            <p>We have a wide selection of vegetarian<br/>
-            products to meet your needs</p>
+
+        <div className={homestyles.circleWrapper2}>
+            <div className={homestyles.circle}>
+                <FontAwesomeIcon icon={faShieldAlt} size="2x" />
+            </div>
+            <div className={homestyles.circleText}>
+                <h3>No Risk</h3>
+                <p>We ensure that all products are safe<br/>
+                and within their use-by date</p>
+            </div>
+        </div>
+
+        <div className={homestyles.circleWrapper2}>
+            <div className={homestyles.circle}>
+                <FontAwesomeIcon icon={faRecycle} size="2x" />
+            </div>
+            <div className={homestyles.circleText}>
+                <h3>GMO free</h3>
+                <p>Natural, no modified products and<br/>
+                derivatives for those who need it</p>
+            </div>
         </div>
     </div>
 
-    <div className={homestyles.circleWrapper}>
-        <div className={homestyles.circle}>
-            <FontAwesomeIcon icon={faFlag} size="2x" />
-        </div>
-        <div className={homestyles.circleText}>
-            <h3>Made in India</h3>
-            <p>Shop local and explore health products<br/>
-            made right here in India</p>
-        </div>
-    </div>
-</div>
-
-<div className={homestyles.overlappingSection2}>
-    <div className={homestyles.circleWrapper2}>
-        <div className={homestyles.circle}>
-            <FontAwesomeIcon icon={faCartShopping} size="2x" />
-        </div>
-        <div className={homestyles.circleText}>
-            <h3>Free shipping</h3>
-            <p>We deliver to your door with no<br/>
-            shipping costs on your orders</p>
-        </div>
-    </div>
-
-    <div className={homestyles.circleWrapper2}>
-        <div className={homestyles.circle}>
-            <FontAwesomeIcon icon={faShieldAlt} size="2x" />
-        </div>
-        <div className={homestyles.circleText}>
-            <h3>No Risk</h3>
-            <p>We ensure that all products are safe<br/>
-and within their use-by date</p>
-        </div>
-    </div>
-
-    <div className={homestyles.circleWrapper2}>
-        <div className={homestyles.circle}>
-            <FontAwesomeIcon icon={faRecycle} size="2x" />
-        </div>
-        <div className={homestyles.circleText}>
-            <h3>GMO free</h3>
-            <p>Natural, no modified products and<br/>
-derivatives for those who need it</p>
-        </div>
-    </div>
-</div>
-
-    
-
-
-
-    
-
-    
     <Ingredients/>
     <Blog/>
     

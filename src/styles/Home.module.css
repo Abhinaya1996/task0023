@@ -173,6 +173,19 @@
     margin-right: 15px; 
 }
 
+.imageContainer {
+    position: relative;
+    width: 100%;
+    max-width: 578px; /* Match the image's intrinsic width */
+    height: auto; 
+    aspect-ratio: 578 / 584;
+  }
+  .imageContainer img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
 .listService{
     padding-top: 20px;
 }

@@ -44,7 +44,7 @@ export default function Footer(){
 
             <div className={footerstyles.row}>
                 <div className={footerstyles.columnplain}>
-                    <img src="/assets/elbrit-logo.webp" style={{height:'80px' , width:'280px'}} alt="Logo" />
+                    <img src="/assets/elbrit-logo-fit.webp" style={{height:'80px' , width:'280px'}} alt="Logo" />
                 </div>
                 <div className={footerstyles.columnplain}>
                     <p style={{color:'white', fontSize:'13px'}}>Your health, physical and emotional well-being is important
